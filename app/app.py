@@ -6,6 +6,7 @@ import pickle  # To load the trained model
 # Load the trained model (Make sure 'model.pkl' exists in the same directory)
 with open("app/linear_regression_model_RF_Prello.pkl", "rb") as file:
     model = pickle.load(file)
+    #test
 
 
 # Create a form
