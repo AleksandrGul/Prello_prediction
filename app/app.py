@@ -31,7 +31,7 @@ with st.form(key="property form"):
 
         
         # Display the Prediction
-        st.write(f"Estimated Property Price: ${prediction:,.2f}")
+        st.write(f"Estimated Property Price m2: ${prediction:,.2f}")
 
 
 
